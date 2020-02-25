@@ -1,10 +1,8 @@
 import React from 'react'
 import Title from './Navbar/Title'
-import ItemActive from './Navbar/ItemActive'
-import NormalItem from './Navbar/NormalItem'
-import ItemDisabled from './Navbar/ItemDisabled'
 import ItemDropdown from './Navbar/ItemDropdown'
 import SearchForm from './Navbar/SearchForm'
+import NavbarNavItem from './Navbar/NavbarNavItem'
 
 function Navbar() {
   return (
@@ -16,9 +14,15 @@ function Navbar() {
 
       <div className='collapse navbar-collapse' id='navbarsExampleDefault'>
         <ul className='navbar-nav mr-auto'>
-          <ItemActive />
-          <NormalItem />
-          <ItemDisabled />
+          <NavbarNavItem
+            text='Home'
+            to='/home'
+            active
+          />
+          <NavbarNavItem
+            text='Sign In'
+            to='sign-in'
+          />
           <ItemDropdown />
         </ul>
         <SearchForm />
