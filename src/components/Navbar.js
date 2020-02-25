@@ -1,10 +1,10 @@
 import React from 'react'
-import Title from './NavbarComponents/Title'
-import ItemActive from './NavbarComponents/ItemActive'
-import NormalItem from './NavbarComponents/NormalItem'
-import ItemDisabled from './NavbarComponents/ItemDisabled'
-import ItemDropdown from './NavbarComponents/ItemDropdown'
-import SearchForm from './NavbarComponents/SearchForm'
+import Title from './Navbar/Title'
+import ItemActive from './Navbar/ItemActive'
+import NormalItem from './Navbar/NormalItem'
+import ItemDisabled from './Navbar/ItemDisabled'
+import ItemDropdown from './Navbar/ItemDropdown'
+import SearchForm from './Navbar/SearchForm'
 
 function Navbar() {
   return (
